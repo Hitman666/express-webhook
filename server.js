@@ -5,7 +5,7 @@ var port    	= process.env.PORT || 8082;
 
 app.use(bodyParser.json());
 app.get('/', function(req, res) {
-	res.send('Hello World!');  
+	res.send('Hello World - deployed by jeknins!!');  
 });
 
 app.post('/webhook', function(req, res) {
